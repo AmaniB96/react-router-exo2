@@ -1,0 +1,8 @@
+nav::after {
+ content: "";
+ height: 2px;
+ width: 30px;
+ display: block;
+ background-color: white;
+ color: white;
+}

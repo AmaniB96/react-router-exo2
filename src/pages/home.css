@@ -4,3 +4,60 @@ body {
     background-size: cover;
     margin: 0;
 }
+
+.home {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Bellefair";
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    box-sizing: border-box;
+    margin-top: 180px;
+}
+
+.homeText{
+    width: 33%;
+
+}
+
+.homeText h4{
+    font-size: 25pt;
+    font-family:"Barlow Condensed";
+    font-weight: 400;
+    margin: 15px;
+}
+
+.homeText h1{
+    font-size: 130pt;
+    font-weight: 300;
+    margin: 15px;
+}
+
+.homeText p{
+    font-size: 15pt;
+    font-family:"Barlow Condensed";
+    font-weight: 300;
+    margin: 15px;
+}
+
+.explore {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore p{
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25pt;
+}

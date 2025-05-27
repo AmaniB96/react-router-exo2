@@ -4,7 +4,7 @@ import './home.css'
 export default function Home() {
 
     return(
-        <>
+        <div className='homeBody'>
         <Nav></Nav>
 
         <div className='home'>
@@ -18,7 +18,7 @@ export default function Home() {
                 <p>EXPLORE</p>
             </div>
         </div>
-        </>
+        </div>
     )
     
 }

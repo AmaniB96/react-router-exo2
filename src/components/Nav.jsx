@@ -1,5 +1,7 @@
 import './nav.css'
 import Logo from '../../public/assets/shared/logo.svg'
+import { Link, NavLink} from 'react-router-dom'
+
 
 export default function Nav() {
     
@@ -13,10 +15,10 @@ export default function Nav() {
 
             <div className='navigation-container'>
                 <ul>
-                    <li>00 HOME</li>
-                    <li>01 DESTINATION</li>
-                    <li>02 CREW</li>
-                    <li>03 TECHNOLOGY</li>
+                    <NavLink to="/">00 HOME</NavLink>
+                    <NavLink to="/destination">01 DESTINATION</NavLink>
+                    <NavLink>02 CREW</NavLink>
+                    <NavLink>03 TECHNOLOGY</NavLink>
                 </ul>
             </div>
         </nav>

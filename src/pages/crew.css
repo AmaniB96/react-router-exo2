@@ -1,0 +1,27 @@
+.crew {
+    background-image: url('../../public/assets/crew/background-crew-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.crewNav{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    bottom: 150px;
+    left: 385px;
+}
+
+.crewBtn {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: gray;
+}

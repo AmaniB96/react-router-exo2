@@ -6,6 +6,8 @@ import Moon from './pages/Moon'
 import Mars from './pages/Mars'
 import Europa from './pages/Europa'
 import Titan from './pages/Titan'
+import Crew from './pages/Crew'
+import Commander from './pages/Commander'
 
 function App() {
   return (
@@ -17,6 +19,13 @@ function App() {
         <Route path='mars' element={<Mars/>}/>
         <Route path='europa' element={<Europa/>}/>
         <Route path='titan' element={<Titan/>}/>
+      </Route>
+      <Route path='/crew' element={<Crew/>}>
+        <Route index element={<Commander/>} />
+        <Route path='commander' element={<Commander/>}/>
+        <Route path='engineer' />
+        <Route path='pilot' />
+        <Route path='specialist' />
       </Route>
     </Routes>
   )

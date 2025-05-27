@@ -17,7 +17,7 @@ export default function Nav() {
                 <ul>
                     <NavLink to="/">00 HOME</NavLink>
                     <NavLink to="/destination">01 DESTINATION</NavLink>
-                    <NavLink>02 CREW</NavLink>
+                    <NavLink to="/crew">02 CREW</NavLink>
                     <NavLink>03 TECHNOLOGY</NavLink>
                 </ul>
             </div>

@@ -21,7 +21,7 @@ export default function Moon() {
                     <NavLink to="">MOON</NavLink>
                     <NavLink to="/destination/mars">MARS</NavLink>
                     <NavLink to="/destination/europa">EUROPA</NavLink>
-                    <NavLink>TITAN</NavLink>
+                    <NavLink to="/destination/titan">TITAN</NavLink>
                 </ul>
 
                 <h2 className='planeteTitle'>MOON</h2>

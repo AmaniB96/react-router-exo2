@@ -5,6 +5,7 @@ import Destination from './pages/Destination'
 import Moon from './pages/Moon'
 import Mars from './pages/Mars'
 import Europa from './pages/Europa'
+import Titan from './pages/Titan'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='moon' element={<Moon/>}/>
         <Route path='mars' element={<Mars/>}/>
         <Route path='europa' element={<Europa/>}/>
+        <Route path='titan' element={<Titan/>}/>
       </Route>
     </Routes>
   )

@@ -1,4 +1,4 @@
-import EuropaPlanete from '../../public/assets/destination/image-mars.webp'
+import EuropaPlanete from '../../public/assets/destination/image-europa.webp'
 import { NavLink } from 'react-router-dom'
 
 export default function Europa() {
@@ -19,13 +19,13 @@ export default function Europa() {
                 <ul className='planeteList'>
                     <NavLink to="/destination/moon">MOON</NavLink>
                     <NavLink to="/destination/mars">MARS</NavLink>
-                    <NavLink>EUROPA</NavLink>
-                    <NavLink>TITAN</NavLink>
+                    <NavLink >EUROPA</NavLink>
+                    <NavLink to="/destination/titan">TITAN</NavLink>
                 </ul>
 
                 <h2 className='planeteTitle'>EUROPA</h2>
 
-                <p className='planeteText'>Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest! Avg. distance 225 mil. km Est. travel time 9 months</p>
+                <p className='planeteText'>The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin. Avg. distance 628 mil. km Est. travel time 3 years</p>
 
                 <hr />
 

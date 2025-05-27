@@ -20,7 +20,7 @@ export default function Mars() {
                     <NavLink to="/destination/moon">MOON</NavLink>
                     <NavLink>MARS</NavLink>
                     <NavLink to="/destination/europa">EUROPA</NavLink>
-                    <NavLink>TITAN</NavLink>
+                    <NavLink to="/destination/titan">TITAN</NavLink>
                 </ul>
 
                 <h2 className='planeteTitle'>MARS</h2>

@@ -1,0 +1,114 @@
+.desti {
+   color: white;
+   display: flex;
+   justify-content: center;
+   gap: 150px;
+   margin-top: 100px;
+   width: 100vw;
+   box-sizing: border-box;
+}
+
+.planete {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: "Barlow Condensed";
+    font-size: 20pt;
+    font-weight: 300;
+    width: 25%;
+    position: relative;
+}
+
+.planete>div{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.pick{
+    position: absolute;
+    top: -50px;
+    letter-spacing: 3px;
+    font-size: 17pt;
+}
+
+.number {
+    color: rgb(82, 80, 80);
+    font-weight: 500;
+}
+
+.planeteDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    width: 25%;
+}
+
+.planeteList a{
+    text-decoration: none;
+    color: #b4b9d7;
+    position: relative;
+}
+
+.planeteDesc ul {
+    display: flex;
+    gap: 25px;
+}
+
+.planeteDesc h2{
+    font-family: "Bellefair";
+    font-size:65pt;
+    font-weight: 300;
+}
+
+.planeteDesc p, .planeteDesc{
+    font-family: "Barlow Condensed";
+
+}
+
+.planeteDesc p {
+    color: #b4b9d7;
+}
+
+
+.planeteDesc h3{
+    font-family: "Bellefair";
+    font-weight: 300;
+}
+
+.planeteDesc span{
+    font-weight: 300;
+    font-size: 10pt;
+    color: #b4b9d7;
+}
+
+.planete img {
+    scale: 0.85;
+}
+
+.planeteDesc hr {
+    border-color: #b4b9d7;
+}
+
+.planeteList a.active::after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+
+.planeteList a:not(.active):hover::after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+}
+

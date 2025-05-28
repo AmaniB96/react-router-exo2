@@ -25,7 +25,7 @@ export default function Nav() {
 
             <div className={`navigation-container ${isMenuOpen ? 'mobile-open' : ''}`}>
                 <ul>
-                    <NavLink to="/" onClick={() => setIsMenuOpen(false)}>00 HOME</NavLink>
+                    <NavLink to="/react-router-exo2" onClick={() => setIsMenuOpen(false)}>00 HOME</NavLink>
                     <NavLink to="/destination" onClick={() => setIsMenuOpen(false)}>01 DESTINATION</NavLink>
                     <NavLink to="/crew" onClick={() => setIsMenuOpen(false)}>02 CREW</NavLink>
                     <NavLink to="/technology" onClick={() => setIsMenuOpen(false)}>03 TECHNOLOGY</NavLink>

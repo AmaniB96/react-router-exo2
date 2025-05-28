@@ -25,6 +25,12 @@ html, body, #root {
         margin-left: 20px;
         font-size: 13pt;
     }
+
+    .html, body, #root {
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+  }
     
     .logo-container::after {
         width: 200px;

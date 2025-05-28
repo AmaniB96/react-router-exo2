@@ -91,6 +91,7 @@
     .crewDetails {
         align-items: center;
         margin-bottom: 30px;
+        margin-top: -70px;
     }
     
     .crewImg img {
@@ -117,18 +118,17 @@
     }
 
     .commander>span:nth-of-type(1){
-        left:35vw
+        left:35vw;
+
     }
+
+    
 }
 
 /* Mobile Styles */
 @media (max-width: 768px) {
     .crewContainer {
-        margin-top: 20px;
-    }
-    
-    .crewDetails, .crewImg {
-        width: 95%;
+        margin-top: -80px;
     }
     
     .crewImg img {
@@ -154,9 +154,11 @@
 
     .commander>p:nth-of-type(1){
         left: 35vw;
+        top:80px
     }
 
     .commander>span:nth-of-type(1){
-        left:25vw
+        left:25vw;
+        top:80px
     }
 }

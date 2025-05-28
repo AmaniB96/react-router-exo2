@@ -19,7 +19,7 @@ import Port from './pages/Port'
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<Home/>}/>
+      <Route path='/react-router-exo2' element={<Home/>}/>
       <Route path='/destination' element={<Destination/>}>
         <Route index element={<Moon/>}/>
         <Route path='moon' element={<Moon/>}/>

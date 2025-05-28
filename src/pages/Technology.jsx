@@ -14,7 +14,7 @@ export default function Technology() {
             <Outlet></Outlet>
 
             <div className="technoNav">
-                <NavLink to="launch"><p>1</p></NavLink>
+                <NavLink to="" end><p>1</p></NavLink>
                 <NavLink to="capsule"><p>2</p></NavLink>
                 <NavLink to="port"><p>3</p></NavLink>
             </div>

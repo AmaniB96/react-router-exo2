@@ -17,3 +17,56 @@ html, body, #root {
   height: 100vh;
   overflow: hidden;
 }
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+    nav {
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 13pt;
+    }
+    
+    .logo-container::after {
+        width: 200px;
+        left: 100px;
+    }
+    
+    .navigation-container ul {
+        gap: 24px;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        margin: 20px;
+        font-size: 12pt;
+    }
+    
+    .logo-container {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .logo-container::after {
+        display: none;
+    }
+    
+    .navigation-container {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .navigation-container ul {
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .navigation-container a.active::after,
+    .navigation-container a:not(.active):hover::after {
+        top: 30px;
+    }
+}

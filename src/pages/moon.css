@@ -112,3 +112,61 @@
     background-color: rgb(255, 255, 255);
 }
 
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+    .desti {
+        flex-direction: column;
+        align-items: center;
+        gap: 75px;
+        margin-top: 50px;
+    }
+    
+    .planete, .planeteDesc {
+        width: 60%;
+        text-align: center;
+    }
+    
+    .planete {
+        align-items: center;
+    }
+    
+    .planete img {
+        scale: 0.6;
+    }
+    
+    .planeteDesc h2 {
+        font-size: 50pt;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .desti {
+        gap: 30px;
+        margin-top: 30px;
+        width: 100vw;
+        padding: 0 20px;
+    }
+    
+    .planete, .planeteDesc {
+        width: 100%;
+    }
+    
+    .planete img {
+        scale: 0.4;
+    }
+    
+    .planeteDesc h2 {
+        font-size: 35pt;
+    }
+    
+    .planeteDesc ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .planeteDesc p {
+        font-size: 12pt;
+    }
+}

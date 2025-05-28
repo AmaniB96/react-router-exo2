@@ -74,3 +74,68 @@
     font-family: "Barlow Condensed";
     font-size: 14pt;
 }
+
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+    .crewContainer {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    .crewDetails, .crewImg {
+        width: 80%;
+    }
+    
+    .crewDetails {
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    
+    .crewImg img {
+        scale: 0.5;
+        height: 400px;
+    }
+    
+    .crewDetails h2 {
+        font-size: 20pt;
+    }
+    
+    .crewDetails h4 {
+        font-size: 16pt;
+    }
+    
+    .crewDetails p {
+        font-size: 11pt;
+        text-align: center;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .crewContainer {
+        margin-top: 20px;
+    }
+    
+    .crewDetails, .crewImg {
+        width: 95%;
+    }
+    
+    .crewImg img {
+        scale: 0.4;
+        height: 300px;
+    }
+    
+    .crewDetails h2 {
+        font-size: 16pt;
+    }
+    
+    .crewDetails h4 {
+        font-size: 13pt;
+    }
+    
+    .crewDetails p {
+        font-size: 10pt;
+    }
+}

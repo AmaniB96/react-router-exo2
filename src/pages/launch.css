@@ -45,3 +45,66 @@
     height: 500px;
     object-fit: contain;
 }
+
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+    .launch {
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    .technoText {
+        width: 80%;
+        margin-right: 0;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .technoImg {
+        width: 80%;
+    }
+    
+    .technoImg img {
+        scale: 1;
+        height: 300px;
+        width: 100%;
+    }
+    
+    .technoText h2 {
+        font-size: 28pt;
+    }
+    
+    .technoText p {
+        font-size: 13pt;
+        width: 100%;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .launch {
+        margin-top: 30px;
+    }
+    
+    .technoText {
+        width: 95%;
+    }
+    
+    .technoImg {
+        width: 95%;
+    }
+    
+    .technoImg img {
+        height: 200px;
+    }
+    
+    .technoText h2 {
+        font-size: 20pt;
+    }
+    
+    .technoText p {
+        font-size: 11pt;
+    }
+}

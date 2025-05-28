@@ -38,3 +38,40 @@
     background-color: white;
     color: black;
 }
+
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+    .techno {
+        background-image: url('../../public/assets/technology/background-technology-tablet.jpg');
+    }
+    
+    .technoNav {
+        position: static;
+        flex-direction: row;
+        justify-content: center;
+        transform: none;
+        margin: 20px 0;
+        left: auto;
+        top: auto;
+    }
+    
+    .technoNav a {
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .techno {
+        background-image: url('../../public/assets/technology/background-technology-mobile.jpg');
+    }
+    
+    .technoNav a {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+}

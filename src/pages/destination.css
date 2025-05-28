@@ -10,3 +10,17 @@
     top: 0;
     left: 0;
 }
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+    .destination {
+        background-image: url('../../public/assets/destination/background-destination-tablet.jpg');
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .destination {
+        background-image: url('../../public/assets/destination/background-destination-mobile.jpg');
+    }
+}

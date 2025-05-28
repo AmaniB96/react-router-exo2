@@ -30,7 +30,7 @@ export default function Mars() {
                 <hr />
 
                 <span>EST. TRAVEL TIME</span>
-                <h3>3 DAYS</h3>
+                <h3>9 MONTHS</h3>
 
             </div>
         </div>

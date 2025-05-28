@@ -14,10 +14,10 @@ export default function Crew() {
             <Outlet></Outlet>
 
             <div className="crewNav">
-                <NavLink className="crewBtn"></NavLink>
-                <NavLink className="crewBtn"></NavLink>
-                <NavLink className="crewBtn"></NavLink>
-                <NavLink className="crewBtn"></NavLink>
+                <NavLink to="" end className="crewBtn"></NavLink>
+                <NavLink to="engineer" className="crewBtn"></NavLink>
+                <NavLink to="pilot"className="crewBtn"></NavLink>
+                <NavLink to="specialist" className="crewBtn"></NavLink>
             </div>
         </div>
     )

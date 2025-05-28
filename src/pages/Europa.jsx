@@ -30,7 +30,7 @@ export default function Europa() {
                 <hr />
 
                 <span>EST. TRAVEL TIME</span>
-                <h3>3 DAYS</h3>
+                <h3>3 YEARS</h3>
 
             </div>
         </div>

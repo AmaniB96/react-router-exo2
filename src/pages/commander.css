@@ -52,5 +52,20 @@
     color: white;
     position: absolute;
     top: 70px;
+    left: 410px;
+    font-family: "Barlow Condensed";
+    font-size: 14pt;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+.commander>span:nth-of-type(1){
+    color: white;
+    position: absolute;
+    top: 70px;
     left: 380px;
+    color: rgb(82, 80, 80);
+    font-weight: 500;
+    font-family: "Barlow Condensed";
+    font-size: 14pt;
 }

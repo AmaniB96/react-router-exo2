@@ -16,7 +16,7 @@
     gap: 15px;
     position: absolute;
     bottom: 150px;
-    left: 385px;
+    left: 390px;
 }
 
 .crewBtn {
@@ -24,4 +24,8 @@
     width: 10px;
     border-radius: 50%;
     background-color: gray;
+}
+
+.crewNav a.active {
+    background-color: white;
 }

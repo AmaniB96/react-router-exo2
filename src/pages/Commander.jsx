@@ -7,6 +7,7 @@ export default function Commander() {
 
     return(
         <div className='commander'>
+            <span>02</span>
             <p>MEET YOUR CREW</p>
 
             <div className='crewContainer'>

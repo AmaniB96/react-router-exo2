@@ -8,6 +8,9 @@ import Europa from './pages/Europa'
 import Titan from './pages/Titan'
 import Crew from './pages/Crew'
 import Commander from './pages/Commander'
+import Engineer from './pages/Engineer'
+import Pilot from './pages/Pilot'
+import Specialist from './pages/Specialist'
 
 function App() {
   return (
@@ -23,9 +26,9 @@ function App() {
       <Route path='/crew' element={<Crew/>}>
         <Route index element={<Commander/>} />
         <Route path='commander' element={<Commander/>}/>
-        <Route path='engineer' />
-        <Route path='pilot' />
-        <Route path='specialist' />
+        <Route path='engineer' element={<Engineer/>} />
+        <Route path='pilot' element={<Pilot/>} />
+        <Route path='specialist' element={<Specialist/>} />
       </Route>
     </Routes>
   )

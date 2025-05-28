@@ -112,6 +112,12 @@
     background-color: rgb(255, 255, 255);
 }
 
+.planeteDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 
 /* Tablet Styles */
 @media (max-width: 1024px) {
@@ -126,6 +132,10 @@
         width: 60%;
         text-align: center;
     }
+
+    .planeteDesc {
+        align-items: center;
+    }
     
     .planete {
         align-items: center;
@@ -138,6 +148,16 @@
     .planeteDesc h2 {
         font-size: 50pt;
     }
+
+    .pick {
+        top: 30px;
+    }
+
+    .planeteList{
+        margin-top: -100px;
+    }
+
+    
 }
 
 /* Mobile Styles */
@@ -162,11 +182,16 @@
     }
     
     .planeteDesc ul {
-        flex-direction: column;
+        flex-direction: row;
         gap: 15px;
     }
     
     .planeteDesc p {
         font-size: 12pt;
     }
+
+    .planeteDesc h3{
+        margin-bottom: 100px;
+    }
+
 }

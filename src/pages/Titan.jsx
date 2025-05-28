@@ -23,15 +23,16 @@ export default function Titan() {
                     <NavLink>TITAN</NavLink>
                 </ul>
 
-                <h2 className='planeteTitle'>Titan</h2>
+                <div className='planeteDetails'>
+                    <h2 className='planeteTitle'>Titan</h2>
 
-                <p className='planeteText'>The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn. Avg. distance 1.6 bil. km Est. travel time 7 years</p>
+                    <p className='planeteText'>The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn. Avg. distance 1.6 bil. km Est. travel time 7 years</p>
 
-                <hr />
+                    <hr />
 
-                <span>EST. TRAVEL TIME</span>
-                <h3>7 YEARS</h3>
-
+                    <span>EST. TRAVEL TIME</span>
+                    <h3>7 YEARS</h3>
+                    </div>
             </div>
         </div>
     )

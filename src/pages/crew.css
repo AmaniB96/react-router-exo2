@@ -38,7 +38,8 @@
     }
     
     .crewNav {
-        bottom: 40px;
+        bottom: 150px;
+        left: 45vw;
     }
 }
 
@@ -49,8 +50,9 @@
     }
     
     .crewNav {
-        bottom: 20px;
+        bottom: 100px;
         gap: 16px;
+        left: 37vw;
     }
     
     .crewBtn {

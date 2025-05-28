@@ -54,6 +54,8 @@
         margin: 20px 0;
         left: auto;
         top: auto;
+        display: flex;
+        gap: 20px;
     }
     
     .technoNav a {

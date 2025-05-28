@@ -50,7 +50,8 @@
     }
     
     .crewNav {
-        bottom: 260px;
+        margin-bottom: -50px;
+        bottom: 200px;
         gap: 16px;
         left: 37vw;
     }

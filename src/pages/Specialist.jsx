@@ -10,7 +10,7 @@ export default function Specialist() {
             <div className='crewContainer'>
                 <div className='crewDetails'>
                     <h4>SPECIALIST</h4>
-                    <h2>Mark Shuttleworth</h2>
+                    <h2>MARK SHUTTLEWORTH</h2>
                     <p>Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.</p>
                 </div>
 

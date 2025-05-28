@@ -1,0 +1,40 @@
+.techno{
+    background-image: url('../../public/assets/technology/background-technology-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.technoNav{
+    position: absolute;
+    top: 370px;
+    left:180px
+}
+
+.technoNav a{
+    height: 70px;
+    width: 70px;
+    background-color: transparent;
+    color: white;
+    border: 1px white solid;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    font-size: 20pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bellefair";
+    text-decoration: none;
+}
+
+.technoNav a.active{
+    background-color: white;
+    color: black;
+}

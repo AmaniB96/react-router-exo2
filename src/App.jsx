@@ -11,6 +11,10 @@ import Commander from './pages/Commander'
 import Engineer from './pages/Engineer'
 import Pilot from './pages/Pilot'
 import Specialist from './pages/Specialist'
+import Technology from './pages/Technology'
+import Launch from './pages/Launch'
+import Capsule from './pages/Capsule'
+import Port from './pages/Port'
 
 function App() {
   return (
@@ -29,6 +33,12 @@ function App() {
         <Route path='engineer' element={<Engineer/>} />
         <Route path='pilot' element={<Pilot/>} />
         <Route path='specialist' element={<Specialist/>} />
+      </Route>
+      <Route path="/technology" element={<Technology/>}>
+        <Route index element={<Launch/>} />
+        <Route path='launch' element={<Launch/>}/>
+        <Route path='capsule' element={<Capsule/>}/>
+        <Route path='port' element={<Port/>}/>
       </Route>
     </Routes>
   )

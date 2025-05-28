@@ -1,0 +1,43 @@
+.technoText {
+    color: white;
+    width: 30%;
+    margin-right:180px ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.technoText span{
+    font-family: "Barlow Condensed";
+    color: #b4b9d7;
+}
+
+.technoText p{
+    font-family: "Barlow Condensed";
+    width: 80%;
+    color: #b4b9d7;
+    margin-top: 25px;
+    font-size: 15pt;
+}
+
+.technoText h2{
+    font-family: "Bellefair";
+    font-size: 35pt;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.launch {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.technoImg{
+    width: 30%;
+}
+
+.technoImg img {
+    scale: 0.8;
+}

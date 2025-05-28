@@ -28,4 +28,5 @@
 
 .crewNav a.active {
     background-color: white;
+    scale:1.2;
 }
